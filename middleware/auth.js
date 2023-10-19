@@ -1,5 +1,5 @@
 // middleware/authMiddleware.js
-require('dotenv').config({path: './config/.env'});
+require('dotenv').config({path: './config.env'});
 const jwt = require('jsonwebtoken');
 const User = require('../modals/userSchema'); // Import the User model
 // middleware/authMiddleware.js

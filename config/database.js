@@ -1,6 +1,6 @@
 // import mongoose
 const mongoose = require('mongoose');
-require('dotenv').config({ path: './config/config.env' });
+require('dotenv').config({ path: './config.env' });
 
 // Define the MongoDB connection URL. Replace 'your-database-uri' with your actual MongoDB URI.
 const dbURI = process.env.DB_URL;

@@ -2,7 +2,7 @@ const User = require("../modals/userSchema");
 const sendEmail = require("../utility/sendMail");
 const jwt = require("jsonwebtoken");
 const ErrorHandler = require("../utility/errorHandler");
-require("dotenv").config;
+require("dotenv").config();
 const bcrypt = require("bcrypt");
 const Whislist = require('../modals/whislistModal')
 const Product = require('../modals/productScehema')
